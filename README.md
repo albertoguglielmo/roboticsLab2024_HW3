@@ -19,7 +19,7 @@ ros2 launch iiwa_bringup iiwa.launch_new.py command_interface:="velocity" robot_
 $ ros2 run rqt_image_view  rqt_image_view 
 ```
 ```
-ros2 run ros2_opencv ros2_open_cv_node 
+ros2 run ros2_opencv ros2_opencv_node 
 ```
 ## SECOND POINT
 2.a
@@ -53,7 +53,7 @@ $ ros2 launch aruco_ros single.launch.py marker_size:=0.1 marker_id:=201
 $ ros2 run ros2_kdl_package ros2_kdl_vision_control --ros-args -p cmd_interface:=effort -p task:=look-at-point
 ```
 it is also possible to run the simulation with the computed torques in the cartesian space with the same command, 
-by substituting the effort value sent to the controller (from code) Youtube link: \n
+by substituting the effort value sent to the controller (from code) 
 
 b) task:=linear position trajectory and the look-at-point vision-based , torques calculated due to the joint space. Youtube link : https://www.youtube.com/watch?v=b3cn5bcMcGs
 ```
