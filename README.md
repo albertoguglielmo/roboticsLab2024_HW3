@@ -1,5 +1,10 @@
 # 🚀 **Homework 3: Vision-Based Control** 🌍🤖 
 
+<p align="center">
+  <img src="image.png" alt="Homework 3 Banner" width="80%">
+</p>
+
+
 Welcome to Homework 3! The primary goal of this Homework is to implement a vision-based controller for a 7-DOF robotic manipulator!  The goal is to use ROS2 packages to detect objects, implement vision-based control, and perform complex trajectories using both joint space and Cartesian space. Below you'll find step-by-step instructions and commands to run various tasks in the Gazebo simulation environment.
 
 ---
